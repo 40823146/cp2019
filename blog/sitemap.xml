@@ -4,63 +4,63 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://40823146.github.io/cmsimfly/blog/</loc>
-<lastmod>2019-10-31T11:35:43-00:00</lastmod>
+<loc>./</loc>
+<lastmod>2019-10-31T12:19:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823146.github.io/cmsimfly/blog/archives.html</loc>
-<lastmod>2019-10-31T11:35:43-00:00</lastmod>
+<loc>./archives.html</loc>
+<lastmod>2019-10-31T12:19:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823146.github.io/cmsimfly/blog/tags.html</loc>
-<lastmod>2019-10-31T11:35:43-00:00</lastmod>
+<loc>./tags.html</loc>
+<lastmod>2019-10-31T12:19:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823146.github.io/cmsimfly/blog/categories.html</loc>
-<lastmod>2019-10-31T11:35:43-00:00</lastmod>
+<loc>./categories.html</loc>
+<lastmod>2019-10-31T12:19:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823146.github.io/cmsimfly/blog/pages/about/</loc>
+<loc>./pages/about/</loc>
 <lastmod>2019-10-31T00:15:22+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823146.github.io/cmsimfly/blog/2018-Fall-32-bit-Windows.html</loc>
+<loc>./2018-Fall-32-bit-Windows.html</loc>
 <lastmod>2018-09-10T11:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823146.github.io/cmsimfly/blog/category/misc.html</loc>
+<loc>./category/misc.html</loc>
 <lastmod>2018-09-10T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823146.github.io/cmsimfly/blog/tag/2018fallcp.html</loc>
+<loc>./tag/2018fallcp.html</loc>
 <lastmod>2018-09-10T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://40823146.github.io/cmsimfly/blog/author/40823146.html</loc>
+<loc>./author/40823146.html</loc>
 <lastmod>2018-09-10T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
