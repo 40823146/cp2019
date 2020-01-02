@@ -128,8 +128,8 @@ class TempState extends State<TempConv> {
         onPressed: () {
           setState(() {
             fOrC == false
-                ? output = (input * 0.453)
-                : output = (input * 2.204);
+                ? output = (input * 2.204)
+                : output = (input * 0.453);
           });
           AlertDialog dialog = AlertDialog(
             content: fOrC == false
