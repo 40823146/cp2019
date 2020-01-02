@@ -129,14 +129,14 @@ class TempState extends State<TempConv> {
           setState(() {
             fOrC == false
                 ? output = (input * 0.453)
-                : output = (input * 2.204;
+                : output = (input * 2.204);
           });
           AlertDialog dialog = AlertDialog(
             content: fOrC == false
                 ? Text(
-                    "${input.toStringAsFixed(2)} KG : ${output.toStringAsFixed(2)} C")
+                    "${input.toStringAsFixed(2)} KG : ${output.toStringAsFixed(2)} LB")
                 : Text(
-                    "${input.toStringAsFixed(2)} LB : ${output.toStringAsFixed(2)} F"),
+                    "${input.toStringAsFixed(2)} LB : ${output.toStringAsFixed(2)} KG"),
           );
           showDialog(context: context, child: dialog);
         },
