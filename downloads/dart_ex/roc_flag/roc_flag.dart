@@ -15,7 +15,19 @@ void main() {
   drawROC(ctx);
   querySelector("#roc").onClick.listen((e) => drawROC(ctx));
   querySelector("#fr").onClick.listen((e) => drawFR(ctx));
+  querySelector("#ge").onClick.listen((e) => drawGE(ctx));
   querySelector("#button").onClick.listen((e) => clearCanvas());
+}
+void drawGE(ctx){
+  //鋪黑
+  ctx.fillStyle = 'rgb(  0, 0, 0)';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  //鋪紅
+  ctx.fillStyle = '#FF0000';
+  ctx.fillRect(0, 66, flag_w, flag_h);
+  //鋪黃
+  ctx.fillStyle = '#FFCC00';
+  ctx.fillRect(0, 133, flag_w, flag_h);
 }
 
 void drawFR(ctx){
