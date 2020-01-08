@@ -14,16 +14,20 @@ void main() {
 
   drawROC(ctx);
   querySelector("#roc").onClick.listen((e) => drawROC(ctx));
-  querySelector("#usa").onClick.listen((e) => drawUSA(ctx));
+  querySelector("#fr").onClick.listen((e) => drawFR(ctx));
   querySelector("#button").onClick.listen((e) => clearCanvas());
 }
 
-void drawUSA(ctx){
-  // 請畫出美國國旗
-  ctx.clearRect(0, 0, flag_w, flag_h);
-  ctx.font = "30px Arial";
-  ctx.strokeStyle = 'rgb(255, 0, 0)';
-  ctx.strokeText("請畫出美國國旗", flag_w/6, flag_w/4);
+void drawFR(ctx){
+  //鋪藍
+  ctx.fillStyle = 'rgb(0,85,164)';
+  ctx.fillRect(0, 0, flag_w, flag_h);
+  //鋪白
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(90, 0, flag_w, flag_h);
+  //鋪紅
+  ctx.fillStyle = 'rgb(250,60,50)';
+  ctx.fillRect(189, 0, flag_w, flag_h);
 }
 
 void drawROC(ctx){
