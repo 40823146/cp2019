@@ -39,12 +39,12 @@ CMSimfly 網際內容管理
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-## CMSimfly 網際內容管理
+## 計算機程式期末報告
 
-### KMOLab
+### 蕭宏翔
 
 <small>
-Created by [KMOLab](http://lab.kmol.info/)
+Created by 40823146
 </small>
 
 [CMSimfly 網誌](./../blog/index.html)
@@ -57,14 +57,15 @@ Created by [KMOLab](http://lab.kmol.info/)
 						
 <section data-markdown>
     <script type="text/template">
-# 投影片快捷鍵
+## Dart 迴圈程式
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+<pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false">main() {
+  for (int i = 0; i &lt; 5; i++) {
+    print("hello $i");
+  }
+    print("Hello, World!");
+}</pre>
+<p><iframe width="800" height="600" src="https://dartpad.dev/embed-inline.html?id=4ec4a29a8245b390e66f27f2ef5528bf"></iframe></p>
 
     </script>
 </section>
@@ -75,12 +76,10 @@ Created by [KMOLab](http://lab.kmol.info/)
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
+## 常微分方程式
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
+<p><a href="https://github.com/mdecourse/cmsimde"></a></p>
+<p><iframe width="800" height="600" src="https://dartpad.dev/embed-inline.html?id=0abf78fef6c05ba8016a2707e7411f2d"></iframe></p>
     </script>
 </section>
 
@@ -90,32 +89,20 @@ $$I = \int \rho R^{2} dV$$
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+## 溫度轉換
+<p><br><br><iframe width="800" height="600" src="https://dartpad.dev/embed-inline.html?id=06c9428188d6018773061966c1e286ca"></iframe></p>
+    </script>
+</section>
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+國旗
+<p><br><br><iframe width="800" height="600" src="https://dartpad.dev/embed-inline.html?id=e0e31b0f718c6a4c06a269789022fd45"></iframe></p>
     </script>
 </section>
 
